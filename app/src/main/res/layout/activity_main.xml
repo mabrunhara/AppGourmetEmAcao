@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capa"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnsair"
+        android:layout_width="97dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#47B76E22"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Sair"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.863"
+        app:rippleColor="#1C96A1" />
+
+    <Button
+        android:id="@+id/btncomp"
+        android:layout_width="184dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#48B76E22"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Compartilhar"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857" />
+
+    <Button
+        android:id="@+id/btnitens"
+        android:layout_width="140dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#E6DCB5"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/itens"
+        android:textColor="#000000"
+        android:textColorHighlight="#FF0000"
+        android:textColorHint="#FF0000"
+        android:textColorLink="#FF0000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674"
+        app:rippleColor="#C61616" />
+
+    <Button
+        android:id="@+id/btnlista"
+        android:layout_width="140dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#F1ECDA"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Lista"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnitens"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:rippleColor="#C81A1A" />
+
+    <Button
+        android:id="@+id/btnsobre"
+        android:layout_width="168dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#E6DCB5"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Sobre"
+        android:textColor="#000000"
+        android:textColorHighlight="#EF0000"
+        android:textColorLink="#F80000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnlista"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991"
+        app:rippleColor="#BF2626" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

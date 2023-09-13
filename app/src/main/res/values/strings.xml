@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">App Mobile Slime Rancher</string>
+    <string name="Texto1Comida">O jogador deve coletar todos os itens abaixo, exceto a CAIXA, que diminui um ponto</string>
+    <string name="vegetais">Fase 1 - Frutas</string>
+    <string name="frutas">Fase 2 - Vegetais</string>
+    <string name="itens">Itens</string>
+    <string name="Texto1Slime">O prato é conhecido como "Plateaû de Fruít". É um prato muito especial pois seus ingredientes são encontrados apenas na feira da XepaQuente.</string>
+    <string name="Texto1Sobre">Você é dono de um restaurante que está fazendo sucesso na Vila Basilides. Certo dia, você recebe a notícia que um cliente misterioso quer jantar um prato especial com ingredientes únicos, que só são encontrados na feira XepaQuente, localizada no centro da Vila. Chegando na feira, o objetivo do jogo é coletar apenas os ingredientes corretos para que o prato final seja feito e você descubra quem é o cliente misterioso que deixará o restaurante famoso em todo Brasil.</string>
+    <string name="Texto2Sobre">Caso jogador acerte a caixa, o mesmo perde pontos.Cada alimento vale um ponto, e para avançar de fase é necessário alcançar 35 pontos.</string>
+    <string name="TextoSlime1">O prato é conhecido como "Plateaû de Fruít". É um prato muito especial pois seus ingredientes são encontrados apenas na feira da XepaQuente.</string>
+    <string name="frutass">Frutas</string>
+    <string name="vegetaiss">Vegetais</string>
+    <string name="modo">O modo de preparo fica a critério do cozinheiro.</string>
+    <string name="slimes">Lista</string>
+    <string name="voltar">Voltar</string>
+    <string name="sobre">Sobre</string>
+
+</resources>
