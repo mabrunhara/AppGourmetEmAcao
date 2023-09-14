@@ -17,7 +17,7 @@ Possui 4 telas:
 
 ### Lista:
 
-![image](https://github.com/mabrunhara/AppGourmetEmAcao/assets/101645595/153e9d3a-c25f-4f16-8efd-1fe21d0bfb48)
+![image](https://github.com/mabrunhara/AppGourmetEmAcao/assets/101645595/c003aaa2-ec21-473f-8f2c-f8b4716b4689)
 
 
 ### Itens:
