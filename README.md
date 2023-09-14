@@ -9,6 +9,7 @@
 ![image](https://github.com/mabrunhara/AppGourmetEmAcao/assets/101645595/87e6cd05-a391-4328-987f-f53317fe74c6)
 
 
+
 #### 2° Sobre: A tela sobre, apresenta a história de nosso jogo e seu objetivo;
 
 ![image](https://github.com/mabrunhara/AppGourmetEmAcao/assets/101645595/7eb40277-c504-4e27-9c76-c1166b6f0484)
@@ -21,8 +22,19 @@
 ![image](https://github.com/mabrunhara/AppGourmetEmAcao/assets/101645595/6dce29df-7338-42a1-953e-89916433aabb)
 
 
+
 #### 4° Itens: A tela de itens, apresenta a imagem de todos os objeos que são disponibilizados para coleta em nosso jogo.
 
 ![image](https://github.com/mabrunhara/AppGourmetEmAcao/assets/101645595/c503c232-226c-4763-a670-f6887f67d0ad)
 
 
+### A interface de nosso app foi desenvolvida, sendo ultilizada os seguintes elementos:  
+#### Button: Para criação dos botões de voltar, compartilhar, sair;
+#### TextView: Para mostrar a lista, itens e demais textos do app;
+#### ImageView: Para adicionar imagem do jogo funcionando.
+
+
+
+### Alunos:
+#### Maria Clara
+#### Víctor Tupinambá
