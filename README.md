@@ -2,6 +2,8 @@
 
 ### O aplicativo desenvolvido, é um guia para o jogador, contendo a lista de itens coletáveis e história do jogo.
 
+#### Vídeo do App funcionando: https://www.youtube.com/shorts/EOfPsUeLt94
+
 #### Dentro de nosso app, são disponibilizadas 4 telas:
 
 #### **1° Menu inicial:** Através da tela de menu, o usuário irá conseguir ter acesso as seguintes páginas: Sobre, Lista, itens e vídeo do app funcionando. Além das opçõpes de compartilhar nosso aplicativo e de sair do mesmo;
