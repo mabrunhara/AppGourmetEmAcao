@@ -4,10 +4,9 @@
 
 #### Dentro de nosso app, são disponibilizadas 4 telas:
 
-#### **1° Menu inicial:** Através da tela de menu, o usuário irá conseguir ter acesso as seguintes páginas: Sobre, Lista e itens. Além das opçõpes de compartilhar nosso aplicativo e de sair do mesmo;
+#### **1° Menu inicial:** Através da tela de menu, o usuário irá conseguir ter acesso as seguintes páginas: Sobre, Lista, itens e vídeo do app funcionando. Além das opçõpes de compartilhar nosso aplicativo e de sair do mesmo;
 
-![image](https://github.com/mabrunhara/AppGourmetEmAcao/assets/101645595/87e6cd05-a391-4328-987f-f53317fe74c6)
-
+![image](https://github.com/mabrunhara/AppGourmetEmAcao/assets/101645595/14d0d3e5-95e2-4735-90c3-553b7f110bbd)
 
 
 #### **2° Sobre:** A tela sobre, apresenta a história de nosso jogo e seu objetivo;
