@@ -1,4 +1,4 @@
-## App Gourmet em Ação
+## 👩‍🍳 App Gourmet em Ação 👨‍🍳
 
 ### O aplicativo desenvolvido, é um guia para o jogador, contendo a lista de itens coletáveis e história do jogo.
 
