@@ -82,7 +82,7 @@ public class Principal extends AppCompatActivity {
         btnlink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://youtu.be/Fo5CR7utRik?si=8aFqP0-ys60dh-5T";
+                String url = "https://youtube.com/shorts/EOfPsUeLt94?si=Dle5uB14mirO0C72";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
             }
