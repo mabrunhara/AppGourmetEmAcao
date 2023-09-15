@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/capa"
-    tools:context=".MainActivity">
+    tools:context=".Principal">
 
     <Button
         android:id="@+id/btnsair"
@@ -14,13 +14,14 @@
         android:backgroundTint="#47B76E22"
         android:fontFamily="@font/alfa_slab_one"
         android:text="Sair"
+        android:textColor="#FFFFFF"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.863"
+        app:layout_constraintVertical_bias="0.943"
         app:rippleColor="#1C96A1" />
 
     <Button
@@ -30,13 +31,14 @@
         android:backgroundTint="#48B76E22"
         android:fontFamily="@font/alfa_slab_one"
         android:text="Compartilhar"
+        android:textColor="#FFFFFF"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintHorizontal_bias="0.127"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.857" />
+        app:layout_constraintVertical_bias="0.936" />
 
     <Button
         android:id="@+id/btnitens"
@@ -52,10 +54,10 @@
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.674"
+        app:layout_constraintVertical_bias="0.645"
         app:rippleColor="#C61616" />
 
     <Button
@@ -70,7 +72,7 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/btnitens"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -80,7 +82,6 @@
         android:id="@+id/btnsobre"
         android:layout_width="168dp"
         android:layout_height="68dp"
-        android:layout_marginBottom="36dp"
         android:backgroundTint="#E6DCB5"
         android:fontFamily="@font/alfa_slab_one"
         android:text="Sobre"
@@ -90,10 +91,27 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/btnlista"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.991"
+        app:layout_constraintVertical_bias="0.892"
         app:rippleColor="#BF2626" />
+
+    <Button
+        android:id="@+id/btnlink"
+        android:layout_width="139dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#F0EBD9"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Vídeo"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802"
+        app:strokeColor="#FF0000" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,17 +3,20 @@ package com.example.appmobileslimerancher;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class Principal extends AppCompatActivity {
 
     Button btnsobre;
     Button btnlista;
     Button btnitens;
     Button btnsair;
     Button btncomp;
+
+    Button btnlink;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent Slimes  = new Intent(getApplicationContext(), Slimes.class);
-                startActivity(Slimes);
+                Intent Lista  = new Intent(getApplicationContext(), Lista.class);
+                startActivity(Lista);
             }
         });
 
@@ -46,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         btnitens.setOnClickListener (new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent Comidas= new Intent(getApplicationContext(), Comidas.class);
+                Intent Comidas= new Intent(getApplicationContext(), Itens.class);
                 startActivity(Comidas);
 
             }
@@ -74,8 +77,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btnlink = findViewById(R.id.btnlink);
 
-
-
+        btnlink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://youtu.be/Fo5CR7utRik?si=8aFqP0-ys60dh-5T";
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(intent);
+            }
+        });
     }
 }

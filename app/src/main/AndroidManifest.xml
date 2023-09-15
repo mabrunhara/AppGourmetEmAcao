@@ -18,19 +18,16 @@
         android:theme="@style/Theme.AppMobileSlimeRancher"
         tools:targetApi="31">
         <activity
-            android:name=".Fazenda"
+            android:name=".Itens"
             android:exported="false" />
         <activity
-            android:name=".Comidas"
-            android:exported="false" />
-        <activity
-            android:name=".Slimes"
+            android:name=".Lista"
             android:exported="false" />
         <activity
             android:name=".Sobre"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Principal"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

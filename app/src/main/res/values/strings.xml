@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">App Mobile Slime Rancher</string>
+    <string name="app_name">App Gourmet em Acao</string>
     <string name="Texto1Comida">O jogador deve coletar todos os itens abaixo, exceto a CAIXA, que diminui um ponto</string>
     <string name="vegetais">Fase 1 - Frutas</string>
     <string name="frutas">Fase 2 - Vegetais</string>
